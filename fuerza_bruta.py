@@ -23,8 +23,8 @@ for i in range(largo_password):
     for j in abc:
         if password[i] == j:
             intentos += 1    # sumamos 1 intento más porque no hemos hecho match aun
-            break           # si hacemos "match" salimos del for para comparar la siguiente letra
-        intentos += 1    # antes de salirnos del for sumamos 1 al valor de "intentos"
+            break            # si hacemos match salimos del for para comparar la siguiente letra
+        intentos += 1        # antes de salirnos del for sumamos 1 al valor de intentos
                     
 print("Se hicieron {} intentos.".format(intentos))
 

@@ -15,5 +15,3 @@ for i in range(num_parrafos):
     print(texto) # imprimer el párrafo 
     
 # Fin de Programa
-
-
